@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.home__ad{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    image-orientation: inherit;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Download-hd-furniture-wallpapers.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.header__body{
+height: max-content;
+font-size: 30px;
+padding: 10px;
+font-family: 'Courgette', cursive;
+color: white;
+
+}
+
+.button {
+    background-color: #464545;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    top: 3px;
+     font-family: 'Courgette', cursive;
+     margin: 2px;
+     opacity: 0.6;
+     cursor: pointer;
+
+
+  }  
+  .button:hover {opacity: 1}
+
+  .header_links{
+      color: white;
+      font-size: 15px;
+      float: right;
+      margin-top: 20px;
+      margin-right: 8px;
+      opacity: 0.6;
+     cursor: pointer;
+     padding: 5px;
+  }
+  .header_links:hover {opacity: 1}
+  .header_links:active{opacity: 1; color: white; }
