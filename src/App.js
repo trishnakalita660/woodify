@@ -12,7 +12,7 @@ import ContactUs from "./Components/ContactUs.js";
 function App() {
   return (
     <div className="App">
-    <Header/>
+    
     <Router>
     
     <Home path="/" />

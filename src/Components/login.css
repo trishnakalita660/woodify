@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,800;1,800&family=Goldman:wght@700&family=Lobster&display=swap');
+.login_input{
+ float: right ;
+ background-color: white;
+ height: 75vh;
+ width: 30%;
+ margin-right: 15rem;
+ margin-top: 5rem;
+ margin-bottom: 0rem;
+  display: flex;
+ border-radius: 8px;
+ position: relative;
+justify-content: center;
+ 
+ 
+  padding: 10px;
+  box-shadow: 3px 5px rgba(59, 41, 41, 0.459);
+
+}
+  .Login__title{
+      background-color: cornflowerblue;
+      height: max-content;
+      width: fit-content;
+  }
+  body{
+  background-image: url("https://images.wallpaperscraft.com/image/room_interior_furniture_143365_1600x1200.jpg");
+   background-repeat: no-repeat;
+  }
+  .login__welcome{
+    font-family: 'Courgette', cursive;
+    color: rgba(38, 19, 82, 0.877);
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+    
+  }
+  a{
+    font-family: 'Courgette', cursive;
+  }
+
+  .form-group{
+    font-family: 'Goldman', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgba(38, 19, 82, 0.877);
+     
+  }
+  .login__form{
+    margin-top: 2rem;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 8px ;
+    font-size: 18px;
+    margin: 0 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: white;
+    font-family: 'Goldman', cursive;
+    font-family: 'Lobster', cursive;
+    color: rgba(14, 37, 71, 0.808);
+    
+  }
+
+  .form__button{
+    width: 100%;
+    height: 2.5rem;
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+     color: rgba(253, 253, 253, 0.952);
+    font-family: 'Exo 2', sans-serif;
+    background: linear-gradient(  #011042e0, #4d77ec);
+     cursor: pointer;
+  }
+    
+  .forgot{
+float: right;
+font-family: 'Goldman', cursive;
+font-family: 'Lobster', cursive;
+font-size: 15px;
+margin-top: 2px;
+color: rgba(38, 19, 82, 0.877) ;
+ 
+  }
+  .new{
+    float: left;
+    font-family: 'Goldman', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-top: 2px;
+    color: rgba(38, 19, 82, 0.877);
+     
+      }
+
+      .login__social{
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      
+      }

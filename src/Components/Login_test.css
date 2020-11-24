@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,800;1,800&family=Goldman:wght@700&family=Lobster&display=swap');
+
+
+.login__welcome{
+    font-family: 'Courgette', cursive;
+    color: rgba(82, 19, 22, 0.877);
+    font-size: 30px;
+    
+}
+.login_input{
+  padding-top: 2rem;
+}
+.loginmodal__close{
+    color: gray;
+    border: none;
+    float: right;
+    margin-right: 2px;
+    margin-top: 0.5rem;
+}
+.loginmodal__close:hover{
+    color: black;
+    cursor: pointer;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 0.5rem ;
+    font-size: 18px;
+    margin: 0 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: white;
+    font-family: 'Goldman', cursive;
+    font-family: 'Lobster', cursive;
+    color: rgba(14, 37, 71, 0.808);
+    
+  }
+
+  
+  .form__button{
+    width: 100%;
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-top: 25px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+     color: rgba(253, 253, 253, 0.952);
+    font-family: 'Exo 2', sans-serif;
+    background: linear-gradient(  #011042e0, #4d77ec);
+     cursor: pointer;
+  }
+    
+  .forgot{
+float: right;
+font-family: 'Goldman', cursive;
+font-family: 'Lobster', cursive;
+font-size: 15px;
+margin-top: 0.5rem;
+color: rgba(38, 19, 82, 0.877) ;
+ 
+  }
+  .new{
+    float: left;
+    font-family: 'Goldman', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-top: 0.5rem;
+    color: rgba(38, 19, 82, 0.877);
+     
+      }
+
+      .login__social{
+         
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      margin-bottom: 1rem;
+      }
+
+
+      .form-group{
+        font-family: 'Goldman', cursive;
+        font-family: 'Lobster', cursive;
+        font-size: 18px;
+        margin-top: 10px;
+        color: rgba(38, 19, 82, 0.877);
+         
+      }

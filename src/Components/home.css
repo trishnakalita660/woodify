@@ -1,27 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 .home__ad{
     height: 100vh;
-    width: 100%;
-    display: flex;
+    width: 99%;
+    display: inline-flexbox;
     image-orientation: inherit;
-    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Download-hd-furniture-wallpapers.jpg");
+    background-image: url("https://images.unsplash.com/photo-1596079890744-c1a0462d0975?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=laura-davidson-QBAH4IldaZY-unsplash.jpg&w=1920");
     background-position: center center;
     background-repeat: no-repeat;
+    font-size: 20px;
+    padding: 10px;
+    
+    font-family: 'Courgette', cursive;
+  
 }
 .header__body{
 height: max-content;
-font-size: 30px;
+font-size: 40px;
 padding: 10px;
 font-family: 'Courgette', cursive;
-color: white;
+color: rgba(88, 3, 3, 0.808);
+justify-content: center;
 
 }
 
 .button {
     background-color: #464545;
     border: none;
-    color: white;
+    color: rgba(12, 7, 43, 0.719);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -38,14 +44,42 @@ color: white;
   .button:hover {opacity: 1}
 
   .header_links{
-      color: white;
+    color: rgba(88, 3, 3, 0.808);
+
       font-size: 15px;
-      float: right;
-      margin-top: 20px;
-      margin-right: 8px;
+      float: left;
+      /* margin-top: 15px; */
+      margin-left: 8px;
       opacity: 0.6;
      cursor: pointer;
-     padding: 5px;
+     padding: 2px;
+     text-decoration: none;
+     
   }
   .header_links:hover {opacity: 1}
-  .header_links:active{opacity: 1; color: white; }
+  .header_links:active{opacity: 1; color: rgb(14, 6, 43); }
+
+  .home__products{
+      background-color: white;
+     
+  }
+ 
+.login__button{
+    float: right;
+     background-color: transparent;
+     cursor: pointer;
+     border: none;
+     font-family: 'Courgette', cursive;
+      color: rgba(38, 19, 82, 0.877);
+      padding-left: 1rem;
+      margin-right: 0rem;
+      font-size: 15px;
+      display: flex;
+      
+  }
+   .login__button:hover{
+color: burlywood;
+  }
+ .links{
+     margin-left: 5rem;
+ }
